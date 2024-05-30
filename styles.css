@@ -1,3 +1,4 @@
+/* Overall body */
 body {
     display: flex;
     justify-content: center;
@@ -8,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Card container CSS */
 .card {
     background-color: #1E1E1E;
     padding: 20px;
@@ -17,6 +19,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Picture portrait */
 .avatar {
     width: 150px;
     height: 150px;
@@ -24,6 +27,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* My name */
 h2 {
     color: #FFF;
     margin: 10px 0;
@@ -41,12 +45,14 @@ h2 {
     margin: 15px 0;
 }
 
+/* General button display */
 .buttons {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* Button text, padding and transition */
 .btn {
     text-decoration: none;
     padding: 10px;
@@ -56,6 +62,7 @@ h2 {
     transition: background-color 0.3s;
 }
 
+/* Button background color */
 .github {
     background-color: #3a3a3a;
     color: #FFF;
@@ -65,6 +72,7 @@ h2 {
     background-color: #3a3a3a;
 }
 
+/* Hover effects */
 .github:hover {
     background-color: #8ed133;
 }
